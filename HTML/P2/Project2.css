@@ -38,4 +38,6 @@ table,th,td
     justify-content: flex-start;
     align-items: flex-start;
 }
-
+.space {
+    margin-top: 20px;
+}
