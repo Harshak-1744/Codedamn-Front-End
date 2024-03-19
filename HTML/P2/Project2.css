@@ -23,14 +23,14 @@ nav {
     padding-right: 20px; 
 }
 h1{
-    text-align: center;
+    text-align: left;
 }
 table,th,td 
 {
     border: 1px solid black;
 }
 .table {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
