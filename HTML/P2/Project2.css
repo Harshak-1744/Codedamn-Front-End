@@ -1,31 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
 
-html 
-{
+html {
     font-family: 'Dosis', sans-serif;
 }
-
-header 
-{
+header {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
-
-nav ul 
-{
+nav ul {
     display: flex; 
     padding: 0; 
     list-style: none; 
     margin: 0; 
 }
 
-nav li 
-{
+nav li {
     margin-right: 20px; 
 }
 
-nav 
-{
+nav {
     padding-right: 20px; 
+}
+h1{
+    text-align: center;
+}
+table,th,td 
+{
+    border: 1px solid black;
+}
+.table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
