@@ -1,43 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
 
-html {
+body {
     font-family: 'Dosis', sans-serif;
 }
-header {
+
+header nav ul {
+    list-style: none;
+    padding: 0;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-.number{
-    padding: 20px;
-}
-nav ul {
-    display: flex; 
-    padding: 0; 
-    list-style: none; 
-    margin: 0; 
+    justify-content: center;
 }
 
-nav li {
-    margin-right: 20px; 
+header nav ul li {
+    margin: 0 10px;
 }
 
-nav {
-    padding-right: 20px; 
+.recipes-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
-h1{
+
+.veg-recipes, .non-veg-recipes {
+    flex-basis: 48%;
+}
+
+.table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
     text-align: left;
 }
-table,th,td 
-{
-    border: 1px solid black;
-    text-align: justify;
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
-.table {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+
+.table th {
+    background-color: grey;
+    color: white;
 }
-.space {
+
+footer {
+    text-align: center;
     margin-top: 20px;
 }
