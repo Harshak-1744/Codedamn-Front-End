@@ -49,7 +49,7 @@ main {
     flex-wrap: wrap; 
 }
 
-.event img{
+.event img {
     max-width: 100px;
     height: auto; 
 }
@@ -58,3 +58,23 @@ main {
     flex: 1; 
 }
 
+input, select, textarea, button {
+    font-family: inherit;
+    margin: 10px 0;
+    padding: 8px;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: rgb(156, 156, 156);
+    color: black;
+    text-align: right;
+    padding: 10px;
+}
