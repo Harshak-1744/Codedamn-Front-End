@@ -24,9 +24,38 @@
                 <h3>Location: Online</h3>
                 <h4>Description: This Event will give the intro about the Laravel Framework</h4>
             </div>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq9Ug8Q_LvssBm4JSFQUAGLxJhDRBB1bNRGycWeJBL8w&s" alt="Laravel Logo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq9Ug8Q_LvssBm4JSFQUAGLxJhDRBB1bNRGycWeJBL8w&s" alt="Laravel-Logo">
         </section>
-        
+        <section class="register">
+            <h2>Register Here</h2>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter Your Name" /><br>
+            <label for="dropdown">Select An Option</label>
+            <select id="dropdown">
+                <option value="attendee">Attendee</option>
+                <option value="speaker">Speaker</option>
+                <option value="volunteer">Volunteer</option>
+            </select>
+        </section>
+        <section>
+            <h2>Pick One</h2>
+            <input type="radio" id="Vegetarian" name="dietPreference" value="Vegetarian">
+            <label for="Vegetarian">Vegetarian</label><br>
+            <input type="radio" id="Non-Vegetarian" name="dietPreference" value="Non-Vegetarian">
+            <label for="Non-Vegetarian">Non-Vegetarian</label><br>
+            <input type="radio" id="Vegan" name="dietPreference" value="Vegan">
+            <label for="Vegan">Vegan</label><br>
+        </section><br>
+        <section>
+            <input type="checkbox" id="terms-conditions" required/>
+            <label for="terms-conditions">I Agree tp Tearm's and Conditions</label>
+        </section><br>        
+        <textarea cols="90" rows="5" placeholder="Types Your Aditional Query"></textarea><br>
+        <input type="submit" id="submit" />
+        <section class="contact">
+            <label for="e-mail">E-mail</label>
+            <h3 id="e-mail">project4@email.com</h3>
+        </section>
     </main>
 </body>
 </html>
