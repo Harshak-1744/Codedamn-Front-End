@@ -2,3 +2,15 @@
     --blue: #6495ed;
     --white: #faf0e6;
 }
+
+body{
+    background: var(--blue);
+}
+
+h2{
+    color: var(--white);
+}
+
+.container{
+    color: var(--white);
+}
