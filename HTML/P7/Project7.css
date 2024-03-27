@@ -1,10 +1,16 @@
 :root{
     --blue: #6495ed;
     --white: #faf0e6;
+    --padding: 30px;
+    --margin: 30px;
 }
 
 body{
     background: var(--blue);
+    padding: var(--padding);
+    margin: var(--margin);
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 h2{
