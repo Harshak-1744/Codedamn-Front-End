@@ -13,38 +13,38 @@ body{
     max-width: 600px;
     margin: 20px auto;
     font-family: var(--font);
-  }
+}
   
-  .comment-card {
+.comment-card {
     background-color: #f9f9f9;
     padding: 20px;
     margin-bottom: 15px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  }
+}
   
-  .comment-card h1::before,
-  .comment-card h1::after {
+.comment-card h1::before,
+.comment-card h1::after {
     content: '💬'; 
     margin: 0 5px;
-  }
+}
 
-  .comment-card h3::before,
-  .comment-card h3::after{
+.comment-card h3::before,
+.comment-card h3::after{
     content: '⏰';
     margin: 0 5px;
-  }
+}
   
-  .comment-card p::first-letter {
+.comment-card p::first-letter {
     font-size: 200%;
     font-weight: bold;
     float: left;
     margin-right: 5px;
     line-height: 1;
-  }
+}
   
-  .comment-card p::selection {
+.comment-card p::selection {
     background-color: var(--color);
     color: black;
-  }
+}
   
