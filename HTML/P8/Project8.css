@@ -2,6 +2,7 @@
 
 :root{
     --font: "IBM Plex Mono", monospace;
+    --color: yellow;
 }
 
 body{
@@ -43,7 +44,7 @@ body{
   }
   
   .comment-card p::selection {
-    background-color: yellow;
+    background-color: var(--color);
     color: black;
   }
   
