@@ -1,7 +1,5 @@
 :root{
     --padding: 20px 10px;
-    --height: 45vh;
-    --width: 30vw;
 }
 
 *{
@@ -9,8 +7,8 @@
 }
 
 img{
-    height: var(--height);
-    width:  var(--width);
+    height: 45vh;
+    width:  30vw;
     padding: var(--padding);
 }
 
@@ -22,49 +20,31 @@ img{
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    img{
-       height: var(--height);
-       width: var(--width);
-    }
+    
 }
 
 /* Tablets, iPads (portrait) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-    img{
-        height: var(--height);
-        width: var(--width);
-    }
+   
 }
 
 /* Tablets, iPads (landscape) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-    img{
-        height: var(--height);
-        width: var(--width);
-    }
+    
 }
 
 
 /* Small laptops ----------- */
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
-    img{
-        height: var(--height);
-        width: var(--width);
-    }
+    
 }
 
 /* Desktops ----------- */
 @media only screen and (min-device-width: 1366px) {
-    img{
-        height: var(--height);
-        width: var(--width);
-    }
+    
 }
 
 /* Large screens ----------- */
 @media only screen and (min-device-width: 1920px) {
-    img{
-        height: var(--height);
-        width: var(--width);
-    }
+    /* Styles */
 }
