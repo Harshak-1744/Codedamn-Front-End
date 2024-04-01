@@ -1,3 +1,7 @@
+:root{
+    --padding: 20px 10px;
+}
+
 *{
     box-sizing: border-box;
 }
@@ -5,11 +9,42 @@
 img{
     height: 45vh;
     width:  30vw;
-    padding: 20px 10px;
+    padding: var(--padding);
 }
 
 .image-div{
     display: flex;
     margin: 10px 10px;
     padding: 10px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    
+}
+
+/* Tablets, iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+   
+}
+
+/* Tablets, iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    
+}
+
+
+/* Small laptops ----------- */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+    
+}
+
+/* Desktops ----------- */
+@media only screen and (min-device-width: 1366px) {
+    
+}
+
+/* Large screens ----------- */
+@media only screen and (min-device-width: 1920px) {
+   
 }
