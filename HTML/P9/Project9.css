@@ -20,31 +20,49 @@ img{
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    
+    img{
+        max-width: 100%;
+        height: auto;
+    }
 }
 
 /* Tablets, iPads (portrait) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-   
+    img{
+        max-width: 100%;
+        height: auto;
+    }
 }
 
 /* Tablets, iPads (landscape) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-    
+    img{
+        max-width: 100%;
+        height: auto;
+    }
 }
 
 
 /* Small laptops ----------- */
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
-    
+    img{
+        max-width: 100%;
+        height: auto;
+    }
 }
 
 /* Desktops ----------- */
 @media only screen and (min-device-width: 1366px) {
-    
+    img{
+        max-width: 100%;
+        height: auto;
+    }
 }
 
 /* Large screens ----------- */
 @media only screen and (min-device-width: 1920px) {
-   
+    img{
+        max-width: 100%;
+        height: auto;
+    }
 }
