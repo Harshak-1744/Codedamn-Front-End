@@ -31,16 +31,16 @@ img{
 /* Tablets, iPads (portrait) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
     img{
-        max-width: 100%;
-        height: auto;
+        height: var(--height);
+        width: var(--width);
     }
 }
 
 /* Tablets, iPads (landscape) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     img{
-        max-width: 100%;
-        height: auto;
+        height: var(--height);
+        width: var(--width);
     }
 }
 
@@ -48,8 +48,8 @@ img{
 /* Small laptops ----------- */
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
     img{
-        max-width: 100%;
-        height: auto;
+        height: var(--height);
+        width: var(--width);
     }
 }
 
