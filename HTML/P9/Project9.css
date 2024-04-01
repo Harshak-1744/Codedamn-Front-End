@@ -1,5 +1,7 @@
 :root{
     --padding: 20px 10px;
+    --height: 45vh;
+    --width: 30vw;
 }
 
 *{
@@ -7,8 +9,8 @@
 }
 
 img{
-    height: 45vh;
-    width:  30vw;
+    height: var(--height);
+    width:  var(--width);
     padding: var(--padding);
 }
 
@@ -21,8 +23,8 @@ img{
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     img{
-        max-width: 100%;
-        height: auto;
+       height: var(--height);
+       width: var(--width);
     }
 }
 
@@ -54,15 +56,15 @@ img{
 /* Desktops ----------- */
 @media only screen and (min-device-width: 1366px) {
     img{
-        max-width: 100%;
-        height: auto;
+        height: var(--height);
+        width: var(--width);
     }
 }
 
 /* Large screens ----------- */
 @media only screen and (min-device-width: 1920px) {
     img{
-        max-width: 100%;
-        height: auto;
+        height: var(--height);
+        width: var(--width);
     }
 }
