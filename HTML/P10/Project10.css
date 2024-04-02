@@ -10,4 +10,21 @@
     border-radius: 50%;
     border: 2px solid pink;
     background-color: pink;
+    animation: bounce 2s infinite;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes bounce {
+    0%{
+        background-color: pink;
+    }
+    50%{
+        background-color: aqua;
+    }
+    
 }
