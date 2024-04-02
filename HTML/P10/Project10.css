@@ -19,10 +19,10 @@
 .container {
     position: relative;
     width: 90%;
-    height: 500%;
+    height: 500px; 
     background-color: #f0f0f0;
-    padding: 600px 150px;
-    margin: 10px 10px;
+    padding: 50px 50px; 
+    margin: auto; 
     border: 1px solid pink;
 }
 
