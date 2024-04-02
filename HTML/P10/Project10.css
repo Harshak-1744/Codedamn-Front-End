@@ -1,49 +1,35 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-#circle{
+#circle {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
     width: 50px;
     height: 50px;
-    border-radius: 50%;
-    border: 2px solid pink;
     background-color: pink;
-    transform: translateY(0%);
-    animation: bounce 2s infinite;
+    border-radius: 50%;
+    animation: bounce 10s infinite;
 }
 
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f0f0;
 }
 
 @keyframes bounce {
-    0%{
-        background-color: pink;
-        transform: translateY(0%);
+    0%, 100% {
+        bottom: 0;
+        animation-timing-function: cubic-bezier(0.5, 0.05, 1, 0.5);
     }
-    50%{
-        background-color: pink;
-        transform: translateY(50%);
+    50% {
+        bottom: 90%; 
+        animation-timing-function: cubic-bezier(0.1, 0.25, 0.5, 1);
     }
-    68.9%{
-        background-color: pink;
-        transform: translateY(68.9%);
-    }
-    70%{
-        background-color: aqua;
-        transform: translateY(70%);
-    }
-    79.9%{
-        background-color: aqua;
-        transform: translateY(79.9%);
-    }
-    80%{
-        background-color: aqua;
-        transform: translateY(90%);
-    }
-    
 }
