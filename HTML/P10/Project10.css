@@ -10,6 +10,7 @@
     border-radius: 50%;
     border: 2px solid pink;
     background-color: pink;
+    transform: translateX(-50%);
     animation: bounce 2s infinite;
 }
 
