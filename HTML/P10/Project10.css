@@ -18,9 +18,12 @@
 
 .container {
     position: relative;
-    width: 100vw;
-    height: 100vh;
+    width: 90%;
+    height: 500%;
     background-color: #f0f0f0;
+    padding: 600px 150px;
+    margin: 10px 10px;
+    border: 1px solid pink;
 }
 
 @keyframes bounce {
