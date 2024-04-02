@@ -30,11 +30,11 @@
         transform: translateY(50%);
     }
     68.9%{
-        background-color: rgb(132, 207, 207);
+        background-color: aqua;
         transform: translateY(68.9%);
     }
     70%{
-        background-color: rgb(213, 183, 241);
+        background-color: pink;
         transform: translateY(70%);
     }
     
