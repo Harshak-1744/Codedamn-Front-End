@@ -34,8 +34,12 @@
         transform: translateY(68.9%);
     }
     70%{
-        background-color: pink;
+        background-color: aqua;
         transform: translateY(70%);
+    }
+    80%{
+        background-color: pink;
+        transform: translateY(90%);
     }
     
 }
