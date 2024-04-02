@@ -23,9 +23,11 @@
 @keyframes bounce {
     0%{
         background-color: pink;
+        transform: translateX(-50%);
     }
     50%{
         background-color: aqua;
+        transform: translateX(50%);
     }
     
 }
