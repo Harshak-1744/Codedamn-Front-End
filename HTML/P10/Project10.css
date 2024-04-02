@@ -10,7 +10,7 @@
     border-radius: 50%;
     border: 2px solid pink;
     background-color: pink;
-    transform: translate(-50%);
+    transform: translateY(0%);
     animation: bounce 2s infinite;
 }
 
@@ -23,15 +23,19 @@
 @keyframes bounce {
     0%{
         background-color: pink;
-        transform: translate(-50%);
+        transform: translateY(0%);
     }
     50%{
         background-color: aqua;
-        transform: translate(50%);
+        transform: translateY(50%);
+    }
+    68.9%{
+        background-color: rgb(132, 207, 207);
+        transform: translateY(68.9%);
     }
     70%{
-        background-color: blueviolet;
-        transform: translate(70%);
+        background-color: rgb(213, 183, 241);
+        transform: translateY(70%);
     }
     
 }
