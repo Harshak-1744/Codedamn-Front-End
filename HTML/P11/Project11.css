@@ -1,19 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
 
-
-:root{
+:root {
     --tFont: "Licorice", cursive;
     --tSize: 100px;
 }
 
-*{
+* {
     margin: 0px;
     padding: 3px;
     box-sizing: border-box;
-
 }
 
-header{
+header {
     font-family: var(--tFont);
     font-size: var(--tSize);
     text-align: center;
@@ -22,25 +20,22 @@ header{
 .carousel {
     overflow: hidden;
     width: 100%;
-  }
-  
-  .carousel-images {
+}
+
+.carousel-images {
     display: flex;
-    animation: alternate-slide 10s infinite alternate;
-  }
-  
-  .carousel-images img {
-    flex: 0 0 auto;
-    width: 100px; 
-    margin-right: 10px; 
-  }
-  
-  @keyframes alternate-slide {
-    0%, 100% {
-      transform: translateX(0);
+    animation: slide 10s infinite linear;
+}
+
+.carousel-images img {
+    width: 10%;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
     }
-    50% {
-      transform: translateX(calc(-100px * 4)); 
+    100% {
+        transform: translateX(-100%); 
     }
-  }
-  
+}
