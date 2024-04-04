@@ -2,8 +2,8 @@
 
 
 :root{
-    --Title-font: "Licorice", cursive;
-    --Title-Size: 100px;
+    --tFont: "Licorice", cursive;
+    --tSize: 100px;
 }
 
 *{
@@ -13,7 +13,7 @@
 }
 
 header{
-    font-family: var(--Title-font);
-    font-size: var(--Title-Size);
+    font-family: var(--tFont);
+    font-size: var(--tSize);
     text-align: center;
 }
