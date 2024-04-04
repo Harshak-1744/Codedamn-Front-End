@@ -8,8 +8,9 @@
 
 *{
     margin: 0px;
-    padding: 0px;
+    padding: 3px;
     box-sizing: border-box;
+
 }
 
 header{
@@ -17,3 +18,29 @@ header{
     font-size: var(--tSize);
     text-align: center;
 }
+
+.carousel {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .carousel-images {
+    display: flex;
+    animation: alternate-slide 10s infinite alternate;
+  }
+  
+  .carousel-images img {
+    flex: 0 0 auto;
+    width: 100px; 
+    margin-right: 10px; 
+  }
+  
+  @keyframes alternate-slide {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(calc(-100px * 4)); 
+    }
+  }
+  
