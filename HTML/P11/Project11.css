@@ -16,26 +16,3 @@ header {
     font-size: var(--tSize);
     text-align: center;
 }
-
-.carousel {
-    overflow: hidden;
-    width: 100%;
-}
-
-.carousel-images {
-    display: flex;
-    animation: slide 10s infinite linear;
-}
-
-.carousel-images img {
-    width: 10%;
-}
-
-@keyframes slide {
-    0% {
-        transform: translateX(0%);
-    }
-    100% {
-        transform: translateX(-100%); 
-    }
-}
