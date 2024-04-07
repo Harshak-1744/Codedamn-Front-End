@@ -16,3 +16,10 @@ header {
     font-size: var(--tSize);
     text-align: center;
 }
+
+img {
+    width: 450px;
+    height: fit-content;
+    margin: 19px;
+    padding-left: 150px;
+}
