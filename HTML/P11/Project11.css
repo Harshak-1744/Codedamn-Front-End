@@ -2,7 +2,7 @@
 
 :root {
     --tFont: "Licorice", cursive;
-    --tSize: 2.5rem; /* Adjusted to be responsive */
+    --tSize: 2.5rem; 
 }
 
 * {
@@ -21,38 +21,38 @@ body {
 }
 
 .container {
-    width: 100%; /* Adjust this value to control the width of the centered content */
-    max-width: 1200px; /* Or any max-width that fits your design */
-    margin: 2rem auto; /* This adds some space at the top and bottom of the content */
-    text-align: center; /* Center text elements */
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 2rem auto; 
+    text-align: center; 
     position: relative;
-    z-index: 2; /* Ensure content is above the background */
+    z-index: 2; 
 }
 
 header {
     font-family: var(--tFont);
     font-size: var(--tSize);
-    margin-bottom: 2.5rem; /* Space below the header */
+    margin-bottom: 2.5rem; 
 }
 
 .catalog-imgs img {
-    width: 30%; /* Adjust the width of images as necessary */
-    margin: 0.5rem; /* Space around images */
-    vertical-align: middle; /* Align images nicely inline */
+    width: 30%; 
+    margin: 0.5rem; 
+    vertical-align: middle; 
 }
 
 footer {
-    margin-top: 1rem; /* Space above the footer */
+    margin-top: 1rem; 
 }
 
 @media (max-width: 768px) {
     .catalog-imgs img {
-        width: 45%; /* Larger width for smaller screens */
+        width: 45%; 
     }
 }
 
 @media (max-width: 480px) {
     .catalog-imgs img {
-        width: 90%; /* Full width for very small screens */
+        width: 90%; 
     }
 }
