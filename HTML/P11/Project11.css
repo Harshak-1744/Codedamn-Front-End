@@ -18,15 +18,6 @@ body {
     align-items: center;
 }
 
-.container {
-    width: 100%; 
-    max-width: 1200px; 
-    margin: 2rem auto; 
-    text-align: center; 
-    position: relative;
-    z-index: 2; 
-}
-
 header {
     font-family: var(--tFont);
     font-size: var(--tSize);
