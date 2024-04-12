@@ -26,17 +26,18 @@ header {
 }
 
 .catalog-imgs {
-    display: flex;              
-    justify-content: space-between; 
-    align-items: center;       
-    width: 100%;               
-    padding: 0 20px;           
+    display: flex;
+    justify-content: space-around; /* This will put equal space around each image. */
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
 }
 
 .catalog-imgs img {
-    margin: auto; 
-    width: calc(33.333% - 20px); 
-    height: auto; 
+    width: auto; /* Width will be as per image aspect ratio */
+    height: auto; /* Height will be auto to maintain aspect ratio */
+    max-width: calc(33.333% - 40px); /* Max-width to ensure they fit in a row, adjust 40px according to the space you want */
+    margin: 10px; /* This will ensure there is space above and below the images */
 }
 
 
