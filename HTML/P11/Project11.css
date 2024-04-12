@@ -54,6 +54,15 @@ header {
     }
 }
 
+.catalog-imgs img {
+    transition: transform 0.3s ease-in-out; 
+}
+
+.catalog-imgs img:hover {
+    transform: translateY(-10px); 
+}
+
+
 footer {
     margin-top: 1rem; 
    
