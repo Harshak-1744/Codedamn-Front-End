@@ -27,17 +27,17 @@ header {
 
 .catalog-imgs {
     display: flex;
-    justify-content: space-around; /* This will put equal space around each image. */
+    justify-content: space-around; 
     align-items: center;
     width: 100%;
     padding: 0 20px;
 }
 
 .catalog-imgs img {
-    width: auto; /* Width will be as per image aspect ratio */
-    height: auto; /* Height will be auto to maintain aspect ratio */
-    max-width: calc(33.333% - 40px); /* Max-width to ensure they fit in a row, adjust 40px according to the space you want */
-    margin: 10px; /* This will ensure there is space above and below the images */
+    width: auto; 
+    height: auto; 
+    max-width: calc(33.333% - 40px); 
+    margin: 10px; 
 }
 
 
@@ -47,14 +47,9 @@ header {
     }
 
     .catalog-imgs img {
-        width: 80%;             
+        width: 100%;             
         margin: 10px auto;      
     }
-}
-
-
-#img-1 {
-    filter: drop-shadow(30px 10px 4px #b1b1b3);
 }
 
 footer {
