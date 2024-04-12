@@ -26,27 +26,28 @@ header {
 }
 
 .catalog-imgs {
-    display: flex;              /* Uses flexbox to align children */
-    justify-content: space-between; /* Distributes space between the children */
-    align-items: center;        /* Aligns children vertically in the middle */
-    width: 100%;                /* Sets the width to take the full parent width */
-    padding: 0 20px;            /* Optional: Adds padding inside the container */
+    display: flex;              
+    justify-content: space-between; 
+    align-items: center;       
+    width: 100%;               
+    padding: 0 20px;           
 }
 
 .catalog-imgs img {
-    width: 30%;                 /* Adjust the width as necessary */
-    margin: 10px 0;             /* Vertical margin only, horizontal margin removed */
+    margin: auto; 
+    width: calc(33.333% - 20px); 
+    height: auto; 
 }
 
-/* Additional styling for responsiveness */
+
 @media (max-width: 768px) {
     .catalog-imgs {
-        flex-direction: column; /* Stacks images vertically on smaller screens */
+        flex-direction: column; 
     }
 
     .catalog-imgs img {
-        width: 80%;             /* Larger width for smaller screens */
-        margin: 10px auto;      /* Center align images with auto horizontal margins */
+        width: 80%;             
+        margin: 10px auto;      
     }
 }
 
