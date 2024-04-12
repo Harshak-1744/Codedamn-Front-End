@@ -26,9 +26,11 @@ header {
 }
 
 .catalog-imgs img {
-    width: 30%; 
-    margin: 0.5rem; 
-    vertical-align: middle; 
+    width: 20%; 
+    margin: 2.5rem; 
+    display: flex-coulmn;
+    justify-content: center;
+    align-items: center; 
 }
 
 footer {
