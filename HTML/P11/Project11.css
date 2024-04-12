@@ -26,9 +26,11 @@ header {
 }
 
 .catalog-imgs img {
-    margin: auto; 
+    margin: 10px; 
+    width: 30%;
 }
 
 footer {
     margin-top: 1rem; 
+   
 }
