@@ -2,7 +2,8 @@
 
 :root {
     --tFont: "Licorice", cursive;
-    --tSize: 5.5rem; 
+    --tSize: 5.5rem;
+    --tableFont: 2rem; 
 }
 
 * {
@@ -63,6 +64,43 @@ header {
 
 .catalog-imgs img:hover {
     transform: translateY(-10px); 
+}
+
+.menu-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+    font-size: var(--tableFont); 
+}
+
+.menu-table th,
+.menu-table td {
+    text-align: left;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd; 
+}
+
+.menu-table th {
+    font-family: var(--tFont);
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.menu-table tbody tr:hover {
+    background-color: #f0f0f0; 
+}
+
+
+@media (max-width: 768px) {
+    .menu-table {
+        width: 90%; 
+        margin: 20px auto;
+    }
+
+    .menu-table th,
+    .menu-table td {
+        padding: 0.8rem; 
+    }
 }
 
 
