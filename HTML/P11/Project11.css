@@ -28,6 +28,10 @@ header {
     text-align: center; 
 }
 
+h1 {
+    font-family: var(--tFont);
+    font-weight: 900;
+}
 
 .catalog-imgs {
     display: flex;
