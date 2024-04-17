@@ -81,11 +81,11 @@ header {
     border-bottom: 1px solid #ddd; 
 }
 
-.menu-table th {
-    font-family: var(--tFont);
-    background-color: #f8f8f8;
-    color: #333;
+.menu-table tr:last-of-type th,
+.menu-table tr:last-of-type td {
+    border-bottom: 2px solid #000; 
 }
+
 
 .menu-table tbody tr:hover {
     background-color: #f0f0f0; 
