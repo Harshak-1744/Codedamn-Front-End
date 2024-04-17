@@ -3,7 +3,7 @@
 :root {
     --tFont: "Licorice", cursive;
     --tSize: 5.5rem;
-    --tableFont: 2rem; 
+    --tableFont: 1.5rem; 
 }
 
 * {
@@ -72,6 +72,11 @@ header {
     margin-top: 2rem;
     font-size: var(--tableFont);
     border: 0.5px black solid; 
+    cursor: pointer;
+}
+
+.menu-table th {
+    font-family: var(--tFont);
 }
 
 .menu-table th,
