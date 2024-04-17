@@ -73,6 +73,8 @@ header {
     font-size: var(--tableFont);
     border: 0.5px black solid; 
     cursor: pointer;
+    border-spacing: 0;
+    border-radius: 45px;
 }
 
 .menu-table th {
