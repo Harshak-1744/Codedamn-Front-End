@@ -70,7 +70,8 @@ header {
     width: 100%;
     border-collapse: collapse;
     margin-top: 2rem;
-    font-size: var(--tableFont); 
+    font-size: var(--tableFont);
+    border: 0.5px black solid; 
 }
 
 .menu-table th,
