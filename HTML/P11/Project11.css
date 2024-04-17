@@ -77,6 +77,7 @@ header {
 
 .menu-table th {
     font-family: var(--tFont);
+    font-size: 30px;
 }
 
 .menu-table th,
