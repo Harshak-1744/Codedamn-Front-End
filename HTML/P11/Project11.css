@@ -112,6 +112,20 @@ header {
     }
 }
 
+.map-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+}
+
+.map-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; 
+}
+
 
 footer {
     margin-top: 1rem; 
