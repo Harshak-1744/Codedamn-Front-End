@@ -21,7 +21,7 @@ body {
 header {
     font-family: var(--tFont);
     font-size: var(--tSize);
-    margin-bottom: 2.5rem;
+    margin-bottom: 0.5rem;
     text-align: center; 
 }
 
