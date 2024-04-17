@@ -14,17 +14,19 @@
 body {
     min-height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center; 
 }
 
 header {
     font-family: var(--tFont);
     font-size: var(--tSize);
+    margin-top: 1rem; 
     margin-bottom: 0.5rem;
     text-align: center; 
-    margin-top: -20px;
 }
+
 
 .catalog-imgs {
     display: flex;
