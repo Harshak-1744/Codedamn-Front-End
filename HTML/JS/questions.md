@@ -1,4 +1,4 @@
-✅ # Objective-1 : Create a JavaScript object to represent a book.
+# ✅ Objective-1 : Create a JavaScript object to represent a book.
 
 ## Requirements:
 
