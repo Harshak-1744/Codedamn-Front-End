@@ -7,7 +7,9 @@
 - After creating the object, write a line of code that logs the book's details in the console in the format:   "Title by Author, published in Year."
 
 
-# Objective-2: Develop a simple JavaScript console application to manage a personal budget. The application will allow you to track expenses and incomes, providing a way to add, remove, and view transactions using basic array operations.
+# Objective-2: 
+ 
+ Develop a simple JavaScript console application to manage a personal budget. The application will allow you to track expenses and incomes, providing a way to add, remove, and view transactions using basic array operations.
 
 ## Requirements:
 
