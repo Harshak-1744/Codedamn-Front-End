@@ -1,19 +1,15 @@
-# ✅ Objective-1 : 
-     
-    Create a JavaScript object to represent a book.
+## ✅ Objective-1 : Create a JavaScript object to represent a book.
 
-## Requirements:
+### Requirements:
 
 - The object should be named book.
 - It should have properties for title, author, and yearPublished.
 - After creating the object, write a line of code that logs the book's details in the console in the format:   "Title by Author, published in Year."
 
 
-# Objective-2: 
- 
-    Develop a simple JavaScript console application to manage a personal budget.
+## Objective-2: Develop a simple JavaScript console application to manage a personal budget.
 
-## Requirements:
+### Requirements:
 
 - **Functionality to Add Transactions:** 
     Users should be able to add transactions (both incomes and expenses) to their budget. Each transaction should include a description and amount.
