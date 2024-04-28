@@ -7,7 +7,7 @@
 - After creating the object, write a line of code that logs the book's details in the console in the format:   "Title by Author, published in Year."
 
 
-## Objective-2: Develop a simple JavaScript console application to manage a personal budget.
+## ✅ Objective-2: Develop a simple JavaScript console application to manage a personal budget.
 
 ### Requirements:
 
