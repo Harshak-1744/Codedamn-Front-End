@@ -22,3 +22,21 @@
 
 - **Use Arrays for Storing Transactions:** 
     All transactions should be stored in an array. Each transaction can be an object with type (income or expense), description, and amount.
+
+
+
+## ✅ Objective-3: Build a JavaScript console application to manage event reminders.
+
+### Requirements:
+
+- **Create Event Reminders**:
+    Users should be able to create reminders for events. Each reminder should include the event name, the date, and the time.
+
+- **Store Reminders**:
+    All reminders should be stored in an array. Each reminder can be represented as an object with properties for eventName, date, and time.
+
+- **List Upcoming Events**:
+    Users should be able to view a list of all upcoming events, sorted by the closest upcoming date.
+
+- **Remove Past Events**:
+    The application should have functionality to automatically remove events that are past the current date and time to keep the list updated.
