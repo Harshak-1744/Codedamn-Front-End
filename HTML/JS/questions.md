@@ -44,7 +44,7 @@
 
 ## Project: Theme Switcher
 
-## Objective:  Create a basic webpage that changes its theme (e.g., background and text color) when the user   clicks a button. This project will involve using document.querySelector to select elements and modify their styles directly in JavaScript.
+## Objective-4:  Create a basic webpage that changes its theme
 
 ### Requirements:
 
