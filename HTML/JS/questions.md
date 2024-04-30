@@ -40,3 +40,22 @@
 
 - **Remove Past Events**:
     The application should have functionality to automatically remove events that are past the current date and time to keep the list updated.
+
+
+## Project: Theme Switcher
+
+## Objective:  Create a basic webpage that changes its theme (e.g., background and text color) when the user   clicks a button. This project will involve using document.querySelector to select elements and modify their styles directly in JavaScript.
+
+### Requirements:
+
+- HTML Layout:
+    Create an HTML page with a paragraph of text and two buttons.
+    One button for switching to a "Dark" theme and another for switching to a "Light" theme.
+
+- JavaScript Functionality:
+    Write JavaScript code that uses document.querySelector to find the buttons and paragraph.
+    Add onclick directly in the HTML to call JavaScript functions when each button is clicked.
+
+- Switching Themes:
+    Define two functions in JavaScript: setDarkTheme() and setLightTheme().
+    These functions should use document.querySelector to change the styles of the HTML body and paragraph to reflect the selected theme.
