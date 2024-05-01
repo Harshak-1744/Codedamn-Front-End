@@ -42,7 +42,7 @@
     The application should have functionality to automatically remove events that are past the current date and time to keep the list updated.
 
 
-## Project: Theme Switcher
+##  ✅Project: Theme Switcher
 
 ## Objective-4:  Create a basic webpage that changes its theme
 
@@ -59,3 +59,22 @@
 - Switching Themes:
     Define two functions in JavaScript: setDarkTheme() and setLightTheme().
     These functions should use document.querySelector to change the styles of the HTML body and paragraph to reflect the selected theme.
+
+
+## Project: Image Gallery with Descriptions
+
+## Objective: Create a simple image gallery 
+
+### Requirements:
+
+- HTML Layout:
+    Create a section with a large display area for the main image and its description.
+    Below or beside the display area, add several smaller thumbnails of images.
+
+- JavaScript Functionality:
+    Use document.querySelector to select the main image and description elements.
+    Add onclick attributes in the HTML that call a JavaScript function to update the main image and description based on the thumbnail clicked.
+
+- CSS for Styling:
+    Style the main display area to prominently show the image and description.
+    Style the thumbnails so they look appealing and are clearly clickable.
