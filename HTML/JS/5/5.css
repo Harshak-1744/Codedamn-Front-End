@@ -8,3 +8,14 @@
   font-size: 200px;
 }
 
+body, html {
+    height: 100%;
+    margin: 0;
+    display: felx;
+    justify-content: center;
+    align-items: center;
+}
+
+.data {
+    text-align: center;
+}
