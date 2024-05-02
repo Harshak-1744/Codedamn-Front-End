@@ -3,7 +3,7 @@ function DarkTheme() {
 }
 
 function LightTheme() {
-    document.querySelector('body').style.backgroundColor = "White"
+    document.querySelector('body').style.backgroundColor = "#E8EFCF";
 }
 
 function updateImage(src, description) {
@@ -11,4 +11,3 @@ function updateImage(src, description) {
     mainImage.src = src;
     document.querySelector('#description').textContent = description;
 }
-
