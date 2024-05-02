@@ -8,6 +8,10 @@
   font-size: 100px;
 }
 
+body {
+    backdrop-filter: blur(100px);
+}
+
 #display {    
     text-align: center;
 }
