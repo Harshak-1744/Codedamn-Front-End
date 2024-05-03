@@ -78,3 +78,30 @@
 - CSS for Styling:
     Style the main display area to prominently show the image and description.
     Style the thumbnails so they look appealing and are clearly clickable.
+
+
+ 
+## Objective: Interactive Quiz App
+
+### Description:
+
+Create a web-based quiz application where users can answer multiple-choice questions. The quiz will provide immediate feedback on whether the answer was correct or incorrect and show the next question.
+
+### Features:
+
+- Start Screen:
+    Display a start button to begin the quiz.
+    Title and brief instructions.
+
+- Quiz Screen:
+    Show one question at a time with multiple-choice answers.
+    Use buttons for each answer.
+    When an answer is clicked, indicate if it's right or wrong.
+
+- Results Screen:
+    After the last question, show the user’s score.
+    Option to restart the quiz.
+
+- Interactive Elements:
+    Use getElementById to manage the quiz content updates.
+    Use addEventListener to handle clicks on answer buttons and the start button.
