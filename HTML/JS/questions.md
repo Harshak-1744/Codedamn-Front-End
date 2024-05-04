@@ -61,7 +61,7 @@
     These functions should use document.querySelector to change the styles of the HTML body and paragraph to reflect the selected theme.
 
 
-## Project: Image Gallery with Descriptions
+## ✅ Project: Image Gallery with Descriptions
 
 ## Objective: Create a simple image gallery 
 
