@@ -63,7 +63,7 @@
 
 ## ✅ Project: Image Gallery with Descriptions
 
-## Objective: Create a simple image gallery 
+## Objective-5: Create a simple image gallery 
 
 ### Requirements:
 
@@ -81,7 +81,7 @@
 
 
  
-## Objective: Interactive Quiz App
+## Objective-6: Interactive Quiz App
 
 ### Description:
 
