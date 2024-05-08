@@ -105,3 +105,38 @@ Create a web-based quiz application where users can answer multiple-choice quest
 - Interactive Elements:
     Use getElementById to manage the quiz content updates.
     Use addEventListener to handle clicks on answer buttons and the start button.
+
+
+## Project: Countdown Timer
+Create a countdown timer app that allows users to input a time duration, displays the countdown in real-time, and triggers an alert when time's up.
+
+### Objective:
+Create a countdown timer that takes user input, starts the countdown, and shows the remaining time dynamically.
+
+### Features:
+    
+    - Time Input:
+        Accept hours, minutes, and seconds from the user.
+    
+    - Timer Display:
+        Show the countdown time in an "HH:MM:SS" format.
+
+    - Start/Stop Functionality:
+        Allow the user to start, pause, and reset the timer.
+
+    - Alert on Completion:
+        Trigger an alert or play a sound when the countdown reaches zero.
+
+* Steps:
+    
+    - Setup HTML Layout:
+        Add input fields to accept hours, minutes, and seconds.
+    - Create buttons for starting, pausing, and resetting the timer.
+        Provide a section to display the countdown.
+    - JavaScript Logic:
+        Use setTimeout or setInterval to decrease the time at one-second intervals.
+        Use promises to handle the timer start, pause, and reset functionalities.
+    - Handling Promises:
+        Use promises to manage the countdown.
+        Resolve promises when the timer completes.
+        Reject promises if an error occurs (e.g., negative time input).
