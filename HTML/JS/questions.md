@@ -107,7 +107,7 @@ Create a web-based quiz application where users can answer multiple-choice quest
     Use addEventListener to handle clicks on answer buttons and the start button.
 
 
-## Project: Countdown Timer
+## Project -7 : Countdown Timer
 Create a countdown timer app that allows users to input a time duration, displays the countdown in real-time, and triggers an alert when time's up.
 
 ### Objective:
