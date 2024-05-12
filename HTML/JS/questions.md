@@ -143,7 +143,7 @@ Create a countdown timer that takes user input, starts the countdown, and shows 
 
 
 
-## Project Idea: Online Bookstore Order Process
+## Project - 8: Online Bookstore Order Process
     Create a simple simulated order process for an online bookstore. The user can place an order for a book, then the system checks if the book is in stock, processes the payment, and finally confirms the order.
 
 ### Project Outline:
