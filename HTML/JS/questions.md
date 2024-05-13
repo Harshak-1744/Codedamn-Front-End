@@ -147,6 +147,9 @@ Create a countdown timer that takes user input, starts the countdown, and shows 
     Create a simple simulated order process for an online bookstore. The user can place an order for a book, then the system checks if the book is in stock, processes the payment, and finally confirms the order.
 
 ### Project Outline:
+
+    * ## Features to Implement :-
+
     - Place Order Function: Takes a book ID and returns a promise. If the book is in stock, it proceeds; otherwise, it rejects.
     - Check Stock Function: Checks the availability of the requested book.
     - Process Payment Function: Processes payment for the book if it's in stock.
