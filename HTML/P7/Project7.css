@@ -19,4 +19,5 @@ h2{
 
 .container{
     color: var(--white);
+    padding: 30px;
 }
