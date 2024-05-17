@@ -23,8 +23,9 @@ function searchData() {
     
     const results = jsonData.filter(book =>
         book.title.toLowerCase().includes(searchTerm) ||
-        book.author.toLowerCase().includes(searchTerm)
+        book.author.toLowerCase().includes(searchTerm) 
     );
+
 
     console.log("Search results:", results);  
     const container = document.getElementById("dummy");
