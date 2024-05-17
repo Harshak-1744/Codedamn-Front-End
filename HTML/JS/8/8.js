@@ -7,7 +7,8 @@ fetch('./data.json')
 })
 .then((data) => {
     console.log(data)
-    document.getElementById("dummy").innerHTML = `<pre>${JSON.stringify(data,null,2)}</pre>`;
+    document.getElementById("dummy").innerHTML = `<pre>${JSON.stringify(data, null, 2)}</pre>`;
 }).catch((error) => {
     console.error(error)
+    document.getElementById("dummy").innerHTML = `Error: ${error.message}`;
 })
