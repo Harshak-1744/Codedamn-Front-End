@@ -26,8 +26,9 @@ function searchData() {
         book.author.toLowerCase().includes(searchTerm) 
     );
 
+    const resultIds = results.map(book => book.id);
 
-    console.log("Search results:", results);  
+    console.log("Search results:", results.id);  
     const container = document.getElementById("dummy");
     container.innerHTML = `<pre>${JSON.stringify(results, null, 2)}</pre>`;
 }
