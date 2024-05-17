@@ -29,11 +29,6 @@ function searchData() {
     console.log("Search results:", results);  
     const container = document.getElementById("dummy");
     container.innerHTML = `<pre>${JSON.stringify(results, null, 2)}</pre>`;
-
-    if(results.stock > 0) {
-        console.log(results.stock)
-    }
-    container.innerHTML = `<pre>${JSON.stringify(results, null, 2)}</pre>`;
 }
 
 
