@@ -148,9 +148,25 @@ Create a countdown timer that takes user input, starts the countdown, and shows 
 
 ### Project Outline:
 
-    * ## Features to Implement :-
+    ## Features to Implement :-
 
     - Place Order Function: Takes a book ID and returns a promise. If the book is in stock, it proceeds; otherwise, it rejects.
     - Check Stock Function: Checks the availability of the requested book.
     - Process Payment Function: Processes payment for the book if it's in stock.
     - Confirm Order Function: Sends an order confirmation message.
+
+
+## Project - 9: Currency Converter
+    Create a simple currency converter that allows users to convert amounts between different currencies based on real-time exchange rates fetched from an API. The user selects or inputs the base currency and the target currency, and the amount they wish to convert. The application then displays the converted amount in the target currency.
+
+### Project Outline:
+    
+    ### Features to Implement :- 
+        
+        - Fetch Exchange Rates Function: An async function that takes base and target currencies as parameters, fetches their current exchange  rate using a public API, and returns the rate as a promise.
+        
+        - Convert Currency Function: Takes an amount, base currency, and target currency, fetches the current exchange rate, and then calculates the converted amount.
+        
+        - Update UI Function: Updates the user interface to display the converted amount dynamically.
+        
+        - Error Handling Function: Handles and displays errors for scenarios like invalid currency codes, API failures, or no internet connection.
