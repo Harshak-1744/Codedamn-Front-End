@@ -148,7 +148,7 @@ Create a countdown timer that takes user input, starts the countdown, and shows 
 
 ### Project Outline:
 
-    ## Features to Implement :-
+## Features to Implement :-
 
     - Place Order Function: Takes a book ID and returns a promise. If the book is in stock, it proceeds; otherwise, it rejects.
     - Check Stock Function: Checks the availability of the requested book.
@@ -161,7 +161,7 @@ Create a countdown timer that takes user input, starts the countdown, and shows 
 
 ### Project Outline:
     
-    ### Features to Implement :- 
+### Features to Implement :- 
         
         - Fetch Exchange Rates Function: An async function that takes base and target currencies as parameters, fetches their current exchange  rate using a public API, and returns the rate as a promise.
         
