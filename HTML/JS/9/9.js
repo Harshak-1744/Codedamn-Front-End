@@ -1,3 +1,6 @@
+/* Currency Converter  from USD to INR */
+
+
 async function convertCurrency() {
   try {
     let amount = document.getElementById("amount").value;
