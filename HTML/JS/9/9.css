@@ -31,7 +31,6 @@ input[type="number"]:focus {
     border-color: #0056b3;
 }
 
-/* Button styling */
 button {
     background-color: #0056b3;
     color: white;
@@ -47,7 +46,6 @@ button:hover {
     background-color: #003580;
 }
 
-/* Result div styling */
 #result {
     margin-top: 20px;
     font-size: 20px;
