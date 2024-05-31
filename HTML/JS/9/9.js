@@ -22,7 +22,7 @@ async function convertCurrency() {
     }
 
     const data = await response.json();
-    document.getElementById("result").innerHTML = `Result: ${data.result}`;
+    document.getElementById("result").innerHTML = `Result: ${data.result} in INR`;
     console.log(data);
   } catch (error) {
     console.log(error.message);
