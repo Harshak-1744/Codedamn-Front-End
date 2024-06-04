@@ -16,3 +16,14 @@ First, clone the repository or download the project to your local machine. Navig
 
 ```bash
 npm install
+```
+
+### Running the Application
+
+To start the application, run the following command in the terminal:
+
+```bash
+npm start
+```
+
+This will start the development server and open the application in your default web browser. If it doesn't open automatically, you can access it by visiting http://localhost:3000 in your browser.
