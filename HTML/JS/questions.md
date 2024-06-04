@@ -169,4 +169,4 @@ Create a countdown timer that takes user input, starts the countdown, and shows 
         
 - Update UI Function: Updates the user interface to display the converted amount dynamically.
         
-- Error Handling Function: Handles and displays errors for scenarios like invalid currency codes, API failures, or no internet connection.
+- Error Handling Function: Handles and displays errors for scenarios like invalid currency codes, API failures, or no internet connection..
