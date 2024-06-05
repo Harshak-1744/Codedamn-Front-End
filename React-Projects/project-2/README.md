@@ -11,6 +11,7 @@ This React project demonstrates the basic usage of props in React components. It
 Before you begin, ensure you have met the following requirements:
 - You have installed Node.js and npm. Visit [Node.js](https://nodejs.org/) to download and install them.
 
+
 ## Installation
 
 To install this project, follow these steps:
@@ -30,10 +31,10 @@ To install this project, follow these steps:
     ```bash
     npm install
 
-## Usage
-To run the project, use the following command:
+4. To run the project, use the following command:
 
- ```bash
-    npm start   
+     ```bash
+        npm start   
+
 
 - This will start the development server and open the application in your default web browser. The application should display an <h1> tag with the name passed from the parent component.
