@@ -12,7 +12,7 @@ Before you begin, ensure you have met the following requirements:
 - You have installed Node.js and npm. Visit [Node.js](https://nodejs.org/) to download and install them.
 
 
-## Installation
+## Installation & To run the Project
 
 To install this project, follow these steps:
 
