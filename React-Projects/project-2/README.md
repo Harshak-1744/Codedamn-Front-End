@@ -34,7 +34,9 @@ To install this project, follow these steps:
 4. To run the project, use the following command:
 
      ```bash
-        npm start   
+    npm start   
 
 
-- This will start the development server and open the application in your default web browser. The application should display an <h1> tag with the name passed from the parent component.
+- This will start the development server and open the application in your default web browser. 
+
+- The application should display an "h1" tag with the name passed from the parent component.
