@@ -20,3 +20,17 @@ You need to have Node.js installed on your machine. If you do not have it instal
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/your-repository.git
+
+2. Navigate to the project directory:
+   ```bash
+   cd your-repository
+
+3. Install the required packages:
+   ```bash
+   npm install
+
+4. Running the Application
+   Start the development server:
+   ```bash
+   npm start
+This runs the app in the development mode. Open http://localhost:3000 to view it in the browser.
