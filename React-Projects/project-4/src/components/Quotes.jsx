@@ -26,7 +26,12 @@ export default function Quotes() {
     return (
         <>
             <div>{quote}</div>
-            <button onClick={changeQuote}>Click Me</button>
+            
+            <button className="pushable" onClick={changeQuote}>
+                <span className="front">
+                    Click Me
+                </span>
+            </button>
         </>
     );
 }
