@@ -14,8 +14,9 @@ const quotes = [
 ];
 
 export default function Quotes(){
-    const [quote,setQuote] = useState();
+    const [quote,setQuote] = useState(quotes[0]);
     return <>
     <div>{quote}</div>
+    <button onClick={setQuote}>Click Me</button>
     </>
 }
