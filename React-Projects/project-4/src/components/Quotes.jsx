@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './App.css';
 
 const quotes = [
     "\"The only limit to our realization of tomorrow will be our doubts of today.\" - Franklin D. Roosevelt",
