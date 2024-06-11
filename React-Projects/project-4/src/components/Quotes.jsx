@@ -14,5 +14,8 @@ const quotes = [
 ];
 
 export default function Quotes(){
-    return <>This is the Demo</>
+    const [quote,setQuote] = useState();
+    return <>
+    <div>{quote}</div>
+    </>
 }
