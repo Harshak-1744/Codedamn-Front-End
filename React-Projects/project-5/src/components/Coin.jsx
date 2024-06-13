@@ -4,7 +4,7 @@ import headsImage from '../imgs/Heads.png';
 import tailsImage from '../imgs/Tails.png'; 
 
 
-const Toss = ['heads', 'tails'];
+const Toss = ['heads', 'tails', 'tails', 'heads', 'tails', 'heads'];
 
 export default function Coin() {
   const [toss, setToss] = useState("");
