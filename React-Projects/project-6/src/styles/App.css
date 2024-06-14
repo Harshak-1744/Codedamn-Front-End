@@ -38,26 +38,26 @@
 }
 
 .App-button {
-  background: linear-gradient(135deg, #61dafb, #21a1f1); /* Diagonal gradient for a sleek look */
+  background: linear-gradient(135deg, #61dafb, #21a1f1); 
   color: white;
   border: none;
   padding: 15px 32px;
   margin: 20px;
-  border-radius: 8px; /* Rounded corners for a modern look */
+  border-radius: 8px; 
   font-size: 16px;
   cursor: pointer;
-  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; /* Smooth transitions */
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16); /* Subtle shadow for depth */
-  outline: none; /* Removes the outline to keep the focus on the styled elements */
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; 
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16); 
+  outline: none; 
 }
 
 .App-button:hover, .App-button:focus {
-  transform: scale(1.05); /* Slightly enlarges the button to indicate interactivity */
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25); /* Intensifies the shadow for a 'lifting' effect */
-  background: linear-gradient(135deg, #21a1f1, #61dafb); /* Reverses the gradient for a dynamic change */
+  transform: scale(1.05); 
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25); 
+  background: linear-gradient(135deg, #21a1f1, #61dafb); 
 }
 
 .App-button:active {
-  transform: scale(0.95); /* Scales down when pressed, simulating a button press */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Lessens the shadow to 'push' the button down */
+  transform: scale(0.95); 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
 }
