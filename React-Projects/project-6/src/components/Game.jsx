@@ -11,9 +11,9 @@ export default function Game() {
     };
 
     return (
-        <>
+        <div className="App-header">
             <h1>{game}</h1>
-            <button onClick={nextChoice}>Next Choice</button>
-        </>
+            <button className="App-button" onClick={nextChoice}>Next Choice</button>
+        </div>
     );
 }
