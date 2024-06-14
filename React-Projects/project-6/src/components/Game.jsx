@@ -1,14 +1,19 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 
-
-export default function () {
-
+export default function Game() {
     const [game, setGame] = useState('rock');
 
-    return <>
-        <h1>{game}</h1>
-        <button onClick={() => {
-            setGame(game)
-        }}>Click Me</button>
-    </>
+    const nextChoice = () => {
+        const choices = ['rock', 'paper', 'scissors'];
+        const currentIndex = choices.indexOf(game);
+        const nextIndex = (currentIndex + 1) % choices.length;
+        setGame(choices[nextIndex]);
+    };
+
+    return (
+        <>
+            <h1>{game}</h1>
+            <button onClick={nextChoice}>Next Choice</button>
+        </>
+    );
 }
