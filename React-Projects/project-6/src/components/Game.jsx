@@ -35,23 +35,25 @@ export default function Game() {
     return (
         <div className="App-header">
             <h1>Rock Paper Scissors</h1>
-            <div>
-                <button className="App-button" onClick={() => handleUserChoice('rock')}>Rock</button>
-                <button className="App-button" onClick={() => handleUserChoice('paper')}>Paper</button>
-                <button className="App-button" onClick={() => handleUserChoice('scissors')}>Scissors</button>
-            </div>
-            <div style={{ display: 'flex', justifyContent: 'space-between', width: '300px', margin: '20px auto' }}>
-                <div>
+            <div className="score-board">
+                <div className="score">
                     <h2>User Score: {userScore}</h2>
                 </div>
-                <div>
+                <div className="game">
+                    <div>
+                        <button className="App-button" onClick={() => handleUserChoice('rock')}>Rock</button>
+                        <button className="App-button" onClick={() => handleUserChoice('paper')}>Paper</button>
+                        <button className="App-button" onClick={() => handleUserChoice('scissors')}>Scissors</button>
+                    </div>
+                    <div>
+                        <h2>Your choice: {userChoice}</h2>
+                        <h2>Computer's choice: {computerChoice}</h2>
+                        <h2>{result}</h2>
+                    </div>
+                </div>
+                <div className="score">
                     <h2>Computer Score: {computerScore}</h2>
                 </div>
-            </div>
-            <div>
-                <h2>Your choice: {userChoice}</h2>
-                <h2>Computer's choice: {computerChoice}</h2>
-                <h2>{result}</h2>
             </div>
         </div>
     );

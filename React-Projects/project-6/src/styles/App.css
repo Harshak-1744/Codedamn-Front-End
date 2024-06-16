@@ -61,3 +61,28 @@
   transform: scale(0.95); 
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
 }
+
+.score-board {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+}
+
+.score {
+  flex: 1;
+  text-align: center;
+  border-right: 2px solid white;
+}
+
+.score:last-child {
+  border-right: none;
+}
+
+.game {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
