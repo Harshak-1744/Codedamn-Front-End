@@ -5,7 +5,7 @@ export default function Game() {
     const [computerChoice, setComputerChoice] = useState(null);
     const [result, setResult] = useState('');
 
-    const choices = ['rock', 'paper', 'scissors'];
+    const choices = ['rock', 'paper', 'scissors'];   
 
     const handleUserChoice = (choice) => {
         setUserChoice(choice);
