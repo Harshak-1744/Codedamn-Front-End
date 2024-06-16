@@ -4,8 +4,10 @@ export default function Game() {
     const [userChoice, setUserChoice] = useState(null);
     const [computerChoice, setComputerChoice] = useState(null);
     const [result, setResult] = useState('');
+    const [userScore, setUserScore] = useState(0);
+    const [computerScore, setComputerScore] = useState(0);
 
-    const choices = ['rock', 'paper', 'scissors'];   
+    const choices = ['rock', 'paper', 'scissors'];
 
     const handleUserChoice = (choice) => {
         setUserChoice(choice);
@@ -23,8 +25,10 @@ export default function Game() {
             (userChoice === 'scissors' && computerChoice === 'paper')
         ) {
             setResult('You win!');
+            setUserScore(userScore + 1);
         } else {
             setResult('You lose!');
+            setComputerScore(computerScore + 1);
         }
     };
 
@@ -35,6 +39,14 @@ export default function Game() {
                 <button className="App-button" onClick={() => handleUserChoice('rock')}>Rock</button>
                 <button className="App-button" onClick={() => handleUserChoice('paper')}>Paper</button>
                 <button className="App-button" onClick={() => handleUserChoice('scissors')}>Scissors</button>
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'space-between', width: '300px', margin: '20px auto' }}>
+                <div>
+                    <h2>User Score: {userScore}</h2>
+                </div>
+                <div>
+                    <h2>Computer Score: {computerScore}</h2>
+                </div>
             </div>
             <div>
                 <h2>Your choice: {userChoice}</h2>
